@@ -21,13 +21,20 @@ instrument-related finances in an all-in-one tracking app.
 
 * **Enhancements:** Various Exceptions for error handling
   * `NegativeUsageException` for `setUsage` in `Instrument`
-  
+
+
+* **Utils:** for utility
+  * `CasingStandardiser`
+
 
 * **Testing:** for relevant classes and methods
   * `RecommendCommandTest`
   * `NegativeUsageException`
   * `FluteTest`, `GuitarTest` and `PianoTest`
   * `UiTest`
+  * `CasingStandardiserTest`
+
+
 
 
 **Contributions to UserGuide**
