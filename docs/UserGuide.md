@@ -492,7 +492,6 @@ Here is the list of instruments:
 This list is empty :(
 *-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
 ```
-
 ### Recommendation for an instrument - `recommend`
 
 Recommends an instrument from existing instrument list/inventory that is popular and not rented
