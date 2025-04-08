@@ -35,8 +35,6 @@ instrument-related finances in an all-in-one tracking app.
   * `CasingStandardiserTest`
 
 
-
-
 **Contributions to UserGuide**
 
 * Explanation of `Recommend` command and feature
