@@ -380,6 +380,28 @@ Here is the list of instruments:
 *-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
 ```
 
+### Recommendation for an instrument - `recommend`
+
+Recommends an instrument from existing instrument list/inventory that is popular and not rented
+
+Format: `recommend INSTRUMENT_NAME`
+
+* The `INSTRUMENT_NAME` can only be "Guitar", "Piano" or "Flute"
+
+Example of usage:
+
+`recommend Guitar`
+
+Expected output:
+
+```
+*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
+Here is our recommendation: 
+5. Guitar | Fender | 2020  
+*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
+```
+
+
 ### User commands - `user`
 
 User will bring up a list of commands that pertains to users:
@@ -492,26 +514,6 @@ Here is the list of instruments:
 This list is empty :(
 *-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
 ```
-### Recommendation for an instrument - `recommend`
-
-Recommends an instrument from existing instrument list/inventory that is popular and not rented
-
-Format: `recommend INSTRUMENT_NAME`
-
-* The `INSTRUMENT_NAME` can only be "Guitar", "Piano" or "Flute"
-
-Example of usage:
-
-`recommend Guitar`
-
-Expected output:
-
-```
-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
-Here is our recommendation: 
-5. Guitar | Fender | 2020  
-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
-```
 
 ### Finance commands - `finance`
 
@@ -541,6 +543,7 @@ Received payment of: 50
 Total Amount is 14463850
 *-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-*-+=+-+-*-+=+-+-*-+
 ```
+
 
 ### List out Commands - `help`
 
